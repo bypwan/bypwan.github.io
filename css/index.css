@@ -1,0 +1,112 @@
+.items {
+  padding: 0 0.625rem;
+}
+.items .title {
+  margin: 0.75rem 0;
+  font-size: 0.875rem;
+}
+.items .title h5 {
+  float: left;
+  font-size: 0.875rem;
+}
+.items .title span {
+  float: right;
+  color: #888888;
+}
+.items .item {
+  border-bottom: 1.0625rem;
+  height: 9.875rem;
+  margin-bottom: 1.125rem;
+  box-sizing: border-box;
+}
+.items .item:not(.add) {
+  border-radius: 0.3125rem;
+  overflow: hidden;
+}
+.items .item .body {
+  position: relative;
+  height: 7.25rem;
+  overflow: hidden;
+}
+.items .item .meta {
+  position: absolute;
+  padding: 0 0.75rem;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+.items .item .meta p {
+  font-size: 0.6875rem;
+  color: #fff;
+  margin-bottom: 0.625rem;
+}
+.items .item .meta span {
+  display: block;
+  float: right;
+}
+.items .item .statue {
+  float: right;
+  color: #fff;
+  padding: 0.25rem;
+  margin-top: -0.25rem;
+}
+.items .item .action {
+  height: 2.5625rem;
+  background-color: #fff;
+  display: flex;
+  padding: 0.5rem 0;
+  box-sizing: border-box;
+}
+.items .item .action a {
+  flex: 1;
+  line-height: 1.5;
+  font-size: 0.8125rem;
+  text-align: center;
+  border-right: 1px solid #ccc;
+}
+.items .item .action a:last-child {
+  border: none;
+}
+.items .item .action a span {
+  color: #888;
+}
+.items .all .body {
+  background-color: #55bc75;
+}
+.items .all .statue {
+  background-color: #2a603b;
+}
+.items .all .action a {
+  color: #55bc75;
+}
+.items .coupon .body {
+  background-color: #a974bc;
+}
+.items .coupon .statue {
+  background-color: #6a4279;
+}
+.items .coupon .action a {
+  color: #a974bc;
+}
+.items .add {
+  background-color: #fff;
+  border: 0.09375rem dashed #ccc;
+  font-size: 3.25rem;
+  text-align: center;
+  padding-top: 1.5625rem;
+  box-sizing: border-box;
+}
+.items .add a {
+  color: #888;
+}
+.items .add span {
+  font-size: 0.875rem;
+  color: #aeaeae;
+  display: block;
+  margin-top: 0.9375rem;
+}
+.viewport {
+  max-width: 980px;
+  margin: 0 auto;
+}

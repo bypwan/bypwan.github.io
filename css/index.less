@@ -1,0 +1,136 @@
+.items {
+	padding: 0 20rem/32;
+	.title{
+		margin: 24rem/32 0;
+		font-size: 28rem/32;
+		h5{
+			float: left;
+			font-size: 28rem/32;
+		}
+		span{
+			float: right;
+			color: #888888;
+		}
+	}
+// 公共样式
+	.item{
+		// height: 224rem/32;
+		border-bottom: 34rem/32;
+		height: 316rem/32;
+		margin-bottom: 36rem/32;
+		box-sizing: border-box;
+		
+		&:not(.add){
+			border-radius:10rem/32;
+			overflow: hidden;
+		}
+		.body{
+			position: relative;
+			height: 232rem/32;	
+			overflow: hidden;
+		}
+		.meta{
+				position: absolute;
+				padding: 0 24rem/32;
+				bottom: 0;
+				left: 0;
+				width: 100%;
+				box-sizing: border-box;
+				p{
+					font-size: 22rem/32;
+					color: #fff;
+					margin-bottom: 20rem/32;
+				}
+				span{
+					display: block;
+					float: right;
+				}
+			}
+
+			.statue{
+				float: right;
+				color: #fff;
+				padding: 8rem/32;
+				margin-top: -8rem/32;
+			}
+		.action{
+			height: 82rem/32;
+			background-color: #fff;
+			display: flex;
+			padding: 16rem/32 0;
+			// 不要忘记这个属性哟
+			box-sizing: border-box;
+
+			a{
+				flex:1;
+				line-height: 1.5;
+				font-size: 26rem/32;
+				text-align: center;
+				border-right: 1px solid #ccc;
+				
+				// &表示当前选择器
+				&:last-child{
+					border:none;
+				}
+				span{
+					color: #888;
+				}
+			}
+		}
+	}
+
+
+
+	.all{
+		.body{
+			background-color: #55bc75;
+		}
+		
+		.statue{
+				background-color: #2a603b;
+			
+		}
+		.action a{
+			color: #55bc75;
+
+		}
+
+	}
+
+
+	.coupon{
+		.body{
+			background-color: #a974bc;
+		}
+		.statue{
+				background-color: #6a4279;
+		}
+		.action a{
+			color: #a974bc;
+		}
+	}
+
+	.add{
+		background-color: #fff;
+		border: 3rem/32 dashed #ccc;
+		font-size: 104rem/32;
+		text-align: center;
+		padding-top: 50rem/32;
+		box-sizing: border-box;
+		a{
+			color: #888;
+		}
+		span{
+			font-size: 28rem/32;
+			color: #aeaeae;
+			display: block;
+			margin-top: 30rem/32;
+		}
+	}
+}
+
+
+.viewport{
+	max-width: 980px;
+	margin: 0 auto;
+}
